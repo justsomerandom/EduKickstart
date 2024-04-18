@@ -338,7 +338,6 @@ public class LangPlayWordsFragment extends Fragment {
         countDownTimer.start();
     }
 
-    @SuppressWarnings("deprecation")
     private void showQuestion() {
         if (isSpelling) {
             calcComplete = true;
@@ -399,7 +398,6 @@ public class LangPlayWordsFragment extends Fragment {
         }
     }
 
-    @SuppressWarnings("deprecation")
     private void checkAnswer() {
         if (isSpelling) {
             optionSelected = true;

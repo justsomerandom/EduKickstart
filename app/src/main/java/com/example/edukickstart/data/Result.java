@@ -5,7 +5,6 @@ import androidx.annotation.NonNull;
 /**
  * A generic class that holds a result success w/ data or an error exception.
  */
-@SuppressWarnings("rawtypes")
 public class Result<T> {
     // hide the private constructor to limit subclass types (Success, Error)
     private Result() {
@@ -15,17 +14,17 @@ public class Result<T> {
     @Override
     public String toString() {
         if (this instanceof Result.Success) {
-            Result.Success success = (Result.Success) this;
+            Result.Success<T> success = (Result.Success<T>) this;
             return "Success[data=" + success.getData().toString() + "]";
         } else if (this instanceof Result.Error) {
-            Result.Error error = (Result.Error) this;
+            Result.Error<T> error = (Result.Error<T>) this;
             return "Error[exception=" + error.getError().toString() + "]";
         }
         return "";
     }
 
     // Success sub-class
-    public final static class Success<T> extends Result {
+    public final static class Success<T> extends Result<T> {
         private final T data;
 
         public Success(T data) {
@@ -38,7 +37,7 @@ public class Result<T> {
     }
 
     // Error sub-class
-    public final static class Error extends Result {
+    public final static class Error<T> extends Result<T> {
         private final Exception error;
 
         public Error(Exception error) {

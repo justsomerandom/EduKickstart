@@ -17,7 +17,6 @@ import java.util.UUID;
 /**
  * Class that handles authentication w/ login credentials and retrieves user information.
  */
-@SuppressWarnings("rawtypes")
 public class LoginDataSource {
 
     private final UserDao userDao;
@@ -29,8 +28,8 @@ public class LoginDataSource {
         userDao = database.userDao();
     }
 
-    @SuppressWarnings("unchecked")
-    public Result<LoggedInUser> login(String username, String password) {
+    @SuppressWarnings("rawtypes")
+    public Result login(String username, String password) {
         try {
             User user = userDao.findByUsername(username);
             if (user != null && user.getPassword().equals(password)) {
@@ -67,11 +66,11 @@ public class LoginDataSource {
             } else {
                 Log.d("LOGIN", "Login failed, incorrect password");
                 Toast.makeText(context, "Incorrect password for " + user.username, Toast.LENGTH_LONG).show();
-                return new Result.Error(new Exception("Incorrect password"));
+                return new Result.Error<>(new Exception("Incorrect password"));
             }
         } catch (Exception e) {
             Log.d("LOGIN", "Login failed with exception " + e);
-            return new Result.Error(new IOException("Error logging in", e));
+            return new Result.Error<>(new IOException("Error logging in", e));
         }
     }
 

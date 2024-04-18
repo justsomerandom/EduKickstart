@@ -11,6 +11,8 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
+import androidx.annotation.NonNull;
+
 public class DrawingView extends View {
     private Paint paint;
     private Path path;
@@ -41,7 +43,7 @@ public class DrawingView extends View {
     }
 
     @Override
-    protected void onDraw(Canvas canvas) {
+    protected void onDraw(@NonNull Canvas canvas) {
         super.onDraw(canvas);
         drawingCanvas.drawPath(path, paint);
         canvas.drawBitmap(drawingBitmap, 0, 0, paint);

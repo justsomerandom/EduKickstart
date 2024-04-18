@@ -111,7 +111,6 @@ public class LangLearnWriteFragment extends Fragment {
         return view;
     }
 
-    @SuppressWarnings("deprecation")
     private void nextQuestion() {
         char currentLetter;
         do currentLetter = generateRandomLetter();
@@ -128,7 +127,6 @@ public class LangLearnWriteFragment extends Fragment {
         drawingView.setDrawingCacheEnabled(true);
     }
 
-    @SuppressWarnings("deprecation")
     private void checkAnswer() {
         Toast.makeText(requireActivity(), "Calculating...", Toast.LENGTH_SHORT).show();
         // Get the drawn letter bitmap from the drawing layout

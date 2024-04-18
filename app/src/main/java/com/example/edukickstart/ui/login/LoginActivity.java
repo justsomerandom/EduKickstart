@@ -1,15 +1,8 @@
 package com.example.edukickstart.ui.login;
 
 import android.app.Activity;
-
-import androidx.lifecycle.ViewModelProvider;
-
 import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.annotation.StringRes;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -20,14 +13,16 @@ import android.widget.GridView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import androidx.annotation.StringRes;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModelProvider;
+
 import com.example.edukickstart.MainActivity;
 import com.example.edukickstart.R;
 import com.example.edukickstart.User;
 import com.example.edukickstart.UserDao;
 import com.example.edukickstart.UserDatabase;
 import com.example.edukickstart.UserListAdapter;
-import com.example.edukickstart.ui.login.LoginViewModel;
-import com.example.edukickstart.ui.login.LoginViewModelFactory;
 import com.example.edukickstart.databinding.ActivityLoginBinding;
 
 import java.util.List;
@@ -137,7 +132,7 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-    private void updateUiWithUser(LoggedInUserView model) {
+    private void updateUiWithUser(LoggedInUserView ignoredModel) {
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }
