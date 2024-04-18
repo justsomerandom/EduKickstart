@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="logout_button">36dp</dimen>
+    <dimen name="learn_button_vertical_margin">60dp</dimen>
+    <dimen name="play_button_vertical_margin">80dp</dimen>
+    <dimen name="stats_table_text_xl">28sp</dimen>
+    <dimen name="stats_table_text_large">24sp</dimen>
+    <dimen name="stats_table_text_small">16sp</dimen>
+    <dimen name="stats_table_padding">4dp</dimen>
+    <dimen name="stats_table_section_padding">8dp</dimen>
+</resources>

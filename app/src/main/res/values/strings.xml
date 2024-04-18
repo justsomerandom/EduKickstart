@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">EduKickstart</string>
+
+    <string name="title_activity_login">Login or Register</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="logged_in_user">%1$s</string>
+
+    <string name="title_activity_main">Main Menu</string>
+    <string name="menu_learn">Learn</string>
+    <string name="menu_play">Play</string>
+    <string name="menu_stats">Statistics</string>
+
+    <string name="title_activity_play">Play Menu</string>
+    <string name="title_activity_learn">Learn Menu</string>
+    <string name="main_time">Time</string>
+    <string name="main_memory">Memory</string>
+    <string name="main_lang">Language</string>
+    <string name="main_maths">Maths</string>
+    <string name="main_visual">Visual</string>
+
+    <string name="title_activity_learn_time">Learning Time</string>
+    <string name="title_activity_learn_memory">Learning Memory</string>
+    <string name="title_activity_learn_lang">Learning Language</string>
+    <string name="title_activity_learn_math">Learning Maths</string>
+    <string name="title_activity_learn_visual">Learning Visual</string>
+    <string name="learn_analog">Analogue Clock</string>
+    <string name="learn_digital">Digital Clock</string>
+    <string name="learn_week">Weekdays</string>
+    <string name="learn_month">Month</string>
+    <string name="learn_season">Seasons</string>
+    <string name="learn_forward">Digits</string>
+    <string name="learn_backward">Digits (Backwards)</string>
+    <string name="learn_images">Images</string>
+    <string name="learn_spell">Spelling</string>
+    <string name="learn_write">Writing</string>
+    <string name="learn_direct">Directions</string>
+    <string name="learn_add">Addition</string>
+    <string name="learn_sub">Subtraction</string>
+    <string name="learn_multiply">Multiplication</string>
+    <string name="learn_match">Image Matching</string>
+    <string name="learn_ball">Follow the Ball</string>
+
+    <string name="title_activity_play_time">Playing Time</string>
+    <string name="title_activity_play_memory">Playing Memory</string>
+    <string name="title_activity_play_lang">Playing Language</string>
+    <string name="title_activity_play_math">Playing Maths</string>
+    <string name="title_activity_play_visual">Playing Visual</string>
+    <string name="title_activity_play_party">Playing Party</string>
+    <string name="play_clock">Clocks</string>
+    <string name="play_calendar">Calendar</string>
+    <string name="play_words">Words</string>
+    <string name="play_mix">Mix</string>
+    <string name="play_party">Party Mix</string>
+
+    <string name="stats_dismiss">Dismiss</string>
+    <string name="stats_user"><b>User</b></string>
+    <string name="stats_group"><b>Subject Group</b></string>
+    <string name="stats_accuracy"><b>Accuracy</b></string>
+    <string name="stats_learn"><b>Learning Progress</b></string>
+    <string name="stats_play"><b>High Scores</b></string>
+    <string name="stats_overall"><b><i>Overall</i></b></string>
+    <string name="stats_learning"><b><i>Learning</i></b></string>
+    <string name="stats_playing"><b><i>Playing</i></b></string>
+    <string name="stats_subject_title"><b>Specific Subject</b></string>
+    <string name="stats_party">Party</string>
+    <string name="stats_time_mix">Time Mix</string>
+    <string name="stats_memory_mix">Memory Mix</string>
+    <string name="stats_lang_mix">Language Mix</string>
+    <string name="stats_maths_mix">Maths Mix</string>
+    <string name="stats_visual_mix">Visual Mix</string>
+
+    <string name="stats_overall_percent">%1$d%%</string>
+    <string name="stats_percentage">%1$s%%</string>
+    <string name="stats_score">%1$s</string>
+
+    <string name="next">Next</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="start">Start</string>
+    <string name="ready">Ready</string>
+    <string name="go">Go</string>
+
+    <string name="clocks_question">Select the correct time shown on the clock above</string>
+    <string name="digital_clock">00:00</string>
+    <string name="week_edit_text">Enter the day of the week</string>
+    <string name="day_number_question">What is the number position of the above day in the week?</string>
+    <string name="day_name_question">Above is the position of what day in the week?</string>
+    <string name="day_complete_question">Enter the day of the week that starts with these two letters:</string>
+    <string name="enter_the_month">Enter the month</string>
+    <string name="reorder_months">Put the above months in the correct order</string>
+    <string name="complete_month">Complete the name of the month above</string>
+    <string name="seasons_keyword_question">Which season do these words describe?</string>
+    <string name="season_temp_question">Which of these two seasons is %1$s?</string>
+    <string name="season_adj_question">Do the above seasons occur one after the other during the year?</string>
+
+    <string name="digits_memory">Memorize the above digits</string>
+    <string name="forward_digits_question">What were the digits shown to you?</string>
+    <string name="backward_digits_question">What were the digits shown to you, in reverse?</string>
+    <string name="images_memory">Which of these was the image shown to you?</string>
+    <string name="image_memorise">Memorize the above image</string>
+
+    <string name="question_spell">Which of these is spelt correctly?</string>
+    <string name="write_question">Write the letter: %1$c</string>
+    <string name="direct_learn">In what direction is the arrow pointing?</string>
+
+    <string name="question_add">What is the answer to the above addition?</string>
+    <string name="question_sub">What is the answer to the above subtraction?</string>
+    <string name="question_multiply">What is the answer to the above multiplication?</string>
+
+    <string name="ball_image">Ball Image</string>
+</resources>

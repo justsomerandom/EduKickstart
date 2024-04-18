@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="months" >
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="word_list_easy" tools:ignore="Typos">
+        <item>apple,aple,appl</item>
+        <item>banana,bananna,banan</item>
+        <item>cat,ct,catt</item>
+        <item>dog,dawg,dogg</item>
+        <item>elephant,elefant,elepant</item>
+        <item>fish,fsh,fissh</item>
+        <item>grape,grap,graape</item>
+        <item>horse,horze,hors</item>
+        <item>igloo,iglo,iglooo</item>
+        <item>jellyfish,jelyfish,jellyfsh</item>
+    </string-array>
+
+    <string-array name="word_list_medium" tools:ignore="Typos">
+        <item>kangaroo,kangaro,kangarooo</item>
+        <item>lion,liion,lionn</item>
+        <item>monkey,monkeey,monnkey</item>
+        <item>nut,nutt,nuut</item>
+        <item>orange,oranj,oraange</item>
+        <item>pear,pare,pearr</item>
+        <item>queen,queenn,queeen</item>
+        <item>rabbit,rabit,rabbitt</item>
+        <item>strawberry,strawbery,strawberr</item>
+        <item>tiger,tigr,tigre</item>
+    </string-array>
+
+    <string-array name="word_list_hard" tools:ignore="Typos">
+        <item>butterfly,buterfly,butterfli</item>
+        <item>caterpillar,caterpilar,caterpiller</item>
+        <item>dolphin,dolphn,dolfin</item>
+        <item>elephant,elefant,elepant</item>
+        <item>flamingo,flamingoo,flaming</item>
+        <item>giraffe,giraf,girrafe</item>
+        <item>honeybee,honeybe,honeyb</item>
+        <item>iguana,iguanna,iguan</item>
+        <item>jaguar,jaguarrr,jaguarr</item>
+        <item>kangaroo,kangaro,kangarooo</item>
+    </string-array>
+
+    <string-array name="word_list_difficult" tools:ignore="Typos">
+        <item>llama,lama,lamaa</item>
+        <item>mosquito,mosqito,mosqitto</item>
+        <item>narwhal,narwal,narhwal</item>
+        <item>octopus,octupus,octopuss</item>
+        <item>peacock,peacok,peacoc</item>
+        <item>quokka,quoka,quokaa</item>
+        <item>raccoon,racoon,raccoonn</item>
+        <item>scorpion,scorpian,scorpiion</item>
+        <item>toucan,tucan,toucan</item>
+        <item>unicorn,unicorrn,unnicorn</item>
+    </string-array>
+
+    <string-array name="word_list_very_difficult" tools:ignore="Typos">
+        <item>accommodate,accomodate,accomodat</item>
+        <item>bougainvillea,bougainvillia,bouginvillea</item>
+        <item>colleague,collegue,coleague</item>
+        <item>entrepreneur,entreprener,entreprenuer</item>
+        <item>hierarchy,hierarcy,hierarchyy</item>
+        <item>inoculate,inocullate,inoculat</item>
+        <item>labyrinth,labyrnth,labyrith</item>
+        <item>mnemonic,memonic,mnemoniic</item>
+        <item>pseudonym,pseudonim,pseuodnym</item>
+        <item>rhythm,rythm,rhytmm</item>
+    </string-array>
+</resources>
